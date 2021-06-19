@@ -7,10 +7,10 @@ global:
     ## It is recommended to name a specific version rather than latest, for any non-trivial deployment
     ## For best results, the helm chart version and platform version should match. Leave this unset to use the
     ## version that matches the version of the helm chart
-    #version: x.y.z 
     root: "hpccsystems"    # change this if you want to pull your images from somewhere other than DockerHub hpccsystems
     pullPolicy: IfNotPresent
     name: platform-gnn
+    version: 8.2.0-rc4
 
   # logging sets the default logging information for all components. Can be overridden locally
   logging:
