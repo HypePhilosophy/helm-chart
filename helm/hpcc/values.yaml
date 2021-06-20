@@ -10,7 +10,7 @@ global:
     root: "hpccsystems"    # change this if you want to pull your images from somewhere other than DockerHub hpccsystems
     pullPolicy: IfNotPresent
     name: platform-gnn
-    version: 8.2.0-rc4
+    version: 8.2.0-rc3
 
   # logging sets the default logging information for all components. Can be overridden locally
   logging:
